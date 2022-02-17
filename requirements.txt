@@ -1,0 +1,4 @@
+numpy==1.19
+transformations==2021.6.6
+evo==v1.13.5
+matplotlib==3.4.2
