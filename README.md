@@ -56,6 +56,14 @@ We use [evo](https://github.com/MichaelGrupp/evo) to visualize the pose file, si
 
 ![pose_interp](imgs/trajectory_pose_interpolation.gif)
 
+To run the visualization code, please try:
+
+```shell
+python pose_vis.py --kf_pose ./data/kf_pose_result_tum_vis.txt --full_pose ./data/kf_pose_result_tum_interp.txt
+```
+
+Please note that file `kf_pose_result_tum_vis.txt` is downsampled from original keyframe sequence `kf_pose_result_tum_vis.txt` for better visualization effect.
+
 
 ### Disclaimer
 
