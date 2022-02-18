@@ -112,6 +112,7 @@ and
 
 ### License
 
-SE3_Pose_Interp is released under a MIT license (see LICENSE.txt)
-If you use ORB-SLAM in an academic work, please cite the most relevant publication associated by visiting:
+`SE3_Pose_Interp` is released under a MIT license (see LICENSE.txt)
+
+If you use `SE3_Pose_Interp` in an academic work, please cite the most relevant publication associated by visiting:
 https://rancheng.github.io

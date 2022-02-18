@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def random_sample(input_arr, sample_size):
     assert len(input_arr) > sample_size + 1
     indice = np.sort(np.random.choice(list(np.arange(input_arr.shape[0])), sample_size, replace=False))
@@ -8,7 +9,6 @@ def random_sample(input_arr, sample_size):
     indice = np.unique(indice)
     output_arr = input_arr[indice]
     return output_arr
-
 
 
 if __name__ == "__main__":

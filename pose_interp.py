@@ -138,7 +138,7 @@ def interpolate_poses(pose_timestamps, abs_poses, requested_timestamps, origin_t
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Extract images from a ROS bag.")
+    parser = argparse.ArgumentParser(description="Interpolate SE3 Pose given timestamp information.")
     parser.add_argument("--kf_pose", help="key frame pose in TUM file format.")
     parser.add_argument("--timestamps", help="timestamps file with index and timestamps for original rgb sequences.")
     args = parser.parse_args()
